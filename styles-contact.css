@@ -71,14 +71,14 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(222, 222, 222, 0.60); /*this uses opacity of 60% for the background color*/
+ 	background: rgba(222, 222, 222, 0); /*this uses opacity of 0% for the background color*/
 	text-align: center;
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed rgb(0, 0, 0);
+	border: 0px dashed rgba(0, 0, 0, 0);
 	text-align: center;
 }
 
@@ -110,7 +110,7 @@ nav{
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed rgb(0, 0, 0);
+	border: dashed rgba(0, 0, 0, 0);
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -126,12 +126,12 @@ nav a{
 	}
 
 a{
-	color:#444;
+	color:rgba(255, 255, 255, 0.037);
 	text-decoration: none;
 	font-weight: bold;
 	}
 
 a:hover{
 	color:black;
-	background:rgb(255, 255, 255);
+	background:rgba(255, 255, 255, 0);
 	}
