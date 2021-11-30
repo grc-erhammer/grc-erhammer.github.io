@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/DJI_0113-Pano-Edit-2.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
 	
@@ -71,15 +71,14 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(222, 222, 222, 0.60); /*this uses opacity of 60% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	border: 3px dashed rgb(0, 0, 0);
 	text-align: center;
 }
 
@@ -111,7 +110,7 @@ nav{
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed turquoise;
+	border: dashed rgb(0, 0, 0);
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -134,5 +133,5 @@ a{
 
 a:hover{
 	color:black;
-	background:pink;
+	background:rgb(255, 255, 255);
 	}
