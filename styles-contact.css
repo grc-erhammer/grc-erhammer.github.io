@@ -110,7 +110,7 @@ nav{
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed rgb(255, 255, 255);
+	border: dashed rgba(255, 255, 255, 0);
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -126,7 +126,7 @@ nav a{
 	}
 
 a{
-	color:rgba(255, 255, 255, 0.037);
+	color:rgb(255, 255, 255);
 	text-decoration: none;
 	font-weight: bold;
 	}
